@@ -173,4 +173,50 @@ a, .hero-secondary-text {
     align-self: flex-end;
 }
 
+.call-to-action-section {
+    padding: 100px 20%;
+}
 
+.call-to-action {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.call-to-action-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-to-action-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color: #1f2937;
+}
+
+.footer-logo {
+    font-size: 16px;
+    color: #f9faf8;
+}
