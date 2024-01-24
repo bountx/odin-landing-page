@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
 
 body {
     margin: 0;
@@ -23,7 +49,7 @@ a {
 
 .header-logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -43,7 +69,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-right: 80px;
-    flex: 2;
+    flex: 1;
 }
 
 .hero-main-text {
@@ -69,14 +95,14 @@ a, .hero-secondary-text {
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 700;
-    
+
 }
 
 .hero-image {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 320px;
     object-fit: cover;
-    flex: 3;
+    flex-shrink: 0;
 }
 
 .information {
@@ -122,6 +148,29 @@ a, .hero-secondary-text {
     width: 175px;
     margin-top: 10px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 27%;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-top: 20px;
+    align-self: flex-end;
 }
 
 
